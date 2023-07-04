@@ -1,0 +1,161 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins' ,sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #0a181c;
+    opacity: .9;
+    
+}
+.heading{
+    padding:5px;
+    font-size: 30px;
+    margin-bottom: 10px;
+   
+}
+
+
+.card{
+    width:90%;
+    max-width: 500px;
+    height: 750px;
+    background-image: url("./images/Boating\ In\ Bad\ Weather\ —\ What\ You\ Need\ To\ Know.jpeg");
+    background-size: cover;
+    border-radius: 20px;
+    margin-top: 50px;
+    padding:20px 35px;
+    text-align: center;
+    
+}
+
+
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.search input{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 25px;
+    height:60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 14px;
+    font-size: 18px;
+}
+
+.search button{
+    border: 0;
+    outline: 0;
+    background:#ebfffc;
+    border-radius: 30px;
+    width:60px;
+    height: 60px;
+    cursor: pointer;
+}
+.imm{
+   font-size: 30px;
+   font-weight: 600;
+}
+
+p, .temp, .city, .heading{
+    color: rgb(245, 242, 242);
+    font-weight: 500;
+}
+.weather-icon{
+    width:170px;
+    margin-top: 30px;
+}
+.weather h2{
+    font-size: 80px;
+    font-weight: 500;
+}
+
+.weather h3{
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.col img{
+    width:40px;
+    margin-right: 10px;
+}
+
+.detail2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+
+.col1{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.col1 img{
+    width:40px;
+    margin-right: 10px;
+}
+.humidity, .wind{
+    font-size: 28px;
+    margin-top: -6px;
+}
+
+.press, .country{
+    font-size: 28px;
+   
+}
+
+
+.weather{
+    display: none;
+}
+
+.error{
+    text-align: left;
+    margin-left: 10px;
+    font-size:14px;
+    margin-top: 10px;
+    display: none;
+}
+
+@keyframes ani{
+    0%{ opacity: 1;
+    color: rgb(255, 255, 255);}
+    50%{color: rgb(139, 139, 139);}
+    100%{ opacity: .5;
+    color: #ffffff;}
+}
+
+h1{
+    animation: ani 2s infinite alternate-reverse ;
+    
+}
