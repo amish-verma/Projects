@@ -7,7 +7,7 @@
     box-sizing: border-box;
     text-decoration: none;
 }
-/* similar content styling codes */
+
 section{
     padding: 100px 0;
 }
@@ -302,7 +302,7 @@ section .title::after{
 }
 
 
-/* skills section styling */
+/* skills section */
 
 .skills .title::after{
     content: "what i know";
